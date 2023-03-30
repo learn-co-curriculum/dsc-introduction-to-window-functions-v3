@@ -4,12 +4,12 @@
 We'll be going over how to apply window functions in SQL to solve complex problems. Window functions help users to perform calculations against partitions over some window. Unlike traditional aggregation functions that outputs a single value for the entire operation, window functions return a signle value for each interval.
 
 ## Objectives
-- Introduce various aggregate functions, like `SUM()`, `MIN()`, `MAX()
+- Introduce various aggregate functions, like `SUM()`, `MIN()`, `MAX()`
 - Introduce various window functions, like `PARTITION BY()`
 
 ### What are window functions?
 
-[This]([https://www.postgresql.org/docs/9.1/tutorial-window.html]) definition from PostgreSQL does a great job on defining what ~window functions~ are. 
+[This]([https://www.postgresql.org/docs/9.1/tutorial-window.html]) definition from PostgreSQL does a great job on defining what _window functions_ are. 
 
 _A window function performs a calculation across a set of table rows that are somehow related to the current row. This is comparable to the type of calculation that can be done with an aggregate function. But unlike regular aggregate functions, use of a window function does not cause rows to become grouped into a single output row — the rows retain their separate identities. Behind the scenes, the window function is able to access more than just the current row of the query result._
 
